@@ -20,7 +20,7 @@ A friendly AI assistant created by Izhan, a 17-year-old developer from Kashmir. 
 
 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Muhammad-izhaan/telegram-bot.git
 cd telegram-bot
 ```
 
@@ -54,7 +54,9 @@ npm i -g vercel
 vercel
 ```
 
-3. Add environment variables in Vercel dashboard.
+3. Add environment variables in Vercel dashboard:
+   - `TELEGRAM_BOT_TOKEN`
+   - `GROQ_API_KEY`
 
 ## Technologies Used
 
@@ -65,4 +67,4 @@ vercel
 
 ## Created By
 
-Izhan - A 17-year-old developer from Kashmir 
+Izhan - A 17-year-old developer from Kashmir
